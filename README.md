@@ -1,39 +1,34 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Animation Countdown ⏱️
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+![Pub Version](https://img.shields.io/pub/v/animation_countdown?color=blue&label=pub%20version)
+![Likes](https://img.shields.io/pub/likes/animation_countdown?color=yellow)
+![Popularity](https://img.shields.io/pub/popularity/animation_countdown?color=green)
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+✨ **Animation Countdown** is a lightweight and customizable Flutter package that provides a sleek, animated countdown timer.  
+Easily integrate into any Flutter project — works without any dependency on state management solutions like GetX, Provider, or BLoC.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+---
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Fully customizable countdown timer
+- Smooth animated number transitions
+- Adjustable size, spacing, colors, text style, and border radius
+- Works with plain `setState` (no state management required)
+- Callback when timer finishes
 
-## Getting started
+---
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## Demo
 
-## Usage
+![Demo](https://raw.githubusercontent.com/Prashant1125/animated_countdown/main/show_timer.gif)
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+---
 
-```dart
-const like = 'sample';
-```
+## Installation
 
-## Additional information
+Add this to your package’s `pubspec.yaml` file:
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  animation_countdown: ^0.0.1
