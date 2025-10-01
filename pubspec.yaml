@@ -1,6 +1,6 @@
 name: animation_countdown
 description: A lightweight animated countdown widget + controller. State-management independent (ChangeNotifier based).
-version: 0.1.0
+version: 0.1.1
 homepage: "https://github.com/Prashant1125/animated_countdown"
 documentation: "https://github.com/Prashant1125/animated_countdown/blob/main/README.md"
 repository: "https://github.com/Prashant1125/animated_countdown.git"
