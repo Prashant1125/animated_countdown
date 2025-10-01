@@ -79,3 +79,6 @@ This project is a starting point for a Flutter application.
 - Works with plain `setState` (no state management required)
 - Callback when timer finishes
 
+Pub.dev package link : https://pub.dev/packages/animation_countdown
+
+## Thank you
