@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: AnimationCountdown(
             duration: const Duration(minutes: 5, seconds: 30),
-            spacing: 5,
+            colonTextStyle: const TextStyle(fontSize: 30, color: Colors.green),
             width: 60,
             height: 60,
             borderRadius: BorderRadius.circular(10),

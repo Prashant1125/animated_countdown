@@ -12,7 +12,6 @@ class AnimationCountdown extends StatefulWidget {
   final double? width;
   final double? height;
   final BorderRadius? borderRadius;
-  final double? spacing;
 
   const AnimationCountdown(
       {Key? key,
@@ -24,8 +23,8 @@ class AnimationCountdown extends StatefulWidget {
       this.width,
       this.height,
       this.borderRadius,
-      this.colonTextStyle,
-      this.spacing})
+      this.colonTextStyle
+})
       : super(key: key);
 
   @override
@@ -73,7 +72,6 @@ class _AnimationCountdownState extends State<AnimationCountdown> {
   Widget build(BuildContext context) {
     var mq = MediaQuery.of(context).size;
     return Row(
-      spacing: widget.spacing ?? 0.0,
       children: [
         AnimatedTimeBox(
           value: minutes,
