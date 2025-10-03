@@ -26,14 +26,14 @@ class AnimatedTimeBox extends StatelessWidget {
   ///
   /// The [value] and [color] parameters are required.
   const AnimatedTimeBox({
-    Key? key,
+    super.key,
     required this.value,
     required this.color,
     this.textStyle,
     this.width,
     this.height,
     this.borderRadius,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
