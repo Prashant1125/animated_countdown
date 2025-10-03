@@ -15,7 +15,7 @@ void main() {
       ),
     );
 
-    // check that timer text appears
-    expect(find.text('05'), findsOneWidget); // seconds value padded
+    // Verify that timer text appears (e.g., padded 05 seconds).
+    expect(find.text('05'), findsOneWidget);
   });
 }

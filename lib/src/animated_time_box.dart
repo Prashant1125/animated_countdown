@@ -1,13 +1,30 @@
 import 'package:flutter/material.dart';
 
+/// A single animated box widget that displays a time unit (minute/second).
+///
+/// This widget animates the transition whenever the `value` changes.
 class AnimatedTimeBox extends StatelessWidget {
+  /// The numeric value displayed in the box (e.g., 05, 12).
   final int value;
+
+  /// The background color of the box.
   final Color color;
+
+  /// Optional text style for the value.
   final TextStyle? textStyle;
+
+  /// Optional width of the box.
   final double? width;
+
+  /// Optional height of the box.
   final double? height;
+
+  /// Optional border radius of the box.
   final BorderRadius? borderRadius;
 
+  /// Creates a new [AnimatedTimeBox].
+  ///
+  /// The [value] and [color] parameters are required.
   const AnimatedTimeBox({
     Key? key,
     required this.value,
